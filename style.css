@@ -1,0 +1,494 @@
+body {
+    background-color: #181818;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+section.header-menu {
+    height: 119px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-menu a {
+    font-size: RobotoM, sans-serif;
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-right: 41px;
+}
+
+a.home {
+    padding-left: 127px;
+}
+
+.header-menu a:hover {
+    color: #4452FE;
+}
+
+a.login {
+    width: 139px;
+    height: 52px;
+    font-family: RobotoM, sans-serif;
+    font-size: 17px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    background: transparent;
+    cursor: pointer;
+    margin-left: 184px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a.login:hover {
+    border: 1px solid gray;
+    color: #FFFFFF;
+}
+
+section.header-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.title {
+    width: 729px;
+    height: 196px;
+    color: #FFFFFF;
+    font-family: RobotoB, sans-serif;
+    font-size: 80px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    padding-top: 60px;
+}
+
+.subtitle {
+    width: 582px;
+    height: 60px;
+    font-family: RobotoL, sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    margin-top: 27px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.button-primary a,
+.button-secundary a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: RobotoM, sans-serif;
+    font-size: 17px;
+}
+
+.button-primary,
+.button-secundary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-primary {
+    width: 178px;
+    height: 65px;
+    background: #4452FE;
+}
+
+.button-primary:hover {
+    background: #2637f7;
+}
+
+.button-secundary:hover {
+    border: 1px solid gray;
+    color: gray;
+}
+
+.button-secundary {
+    width: 172px;
+    height: 63px;
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    margin-left: 35px;
+}
+
+.main-header-img {
+    margin-top: 35px;
+    width: 1552.02px;
+    height: 841px;
+}
+
+img.header-main {
+    width: 1552.02px;
+    height: 841px;
+}
+
+main.main-features {
+    width: 100vw;
+    height: 1112px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+section.features {
+    height: 149px;
+}
+
+.title_features {
+    height: 62px;
+    font-size: 52px;
+    text-transform: uppercase;
+    margin-top: 100px;
+
+}
+
+.title_features,
+.subtitle_features {
+    display: flex;
+    justify-content: center;
+    font-family: RobotoL, sans-serif;
+    color: #FFFFFF;
+    letter-spacing: 0.2px;
+}
+
+.subtitle_features {
+    width: 500px;
+    height: 60px;
+    padding-top: 27px;
+    text-align: center;
+    margin-left: 250px;
+}
+
+.features-img {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: row;
+}
+
+img.ChatBot {
+    width: 696px;
+    height: 659px;
+}
+
+img.LineChart {
+    height: 270px;
+    width: 400px;
+    padding-top: 430px;
+    margin-left: -370px;
+}
+
+.logo {
+    padding-top: 90px;
+    margin-left: 20px;
+}
+
+.logo1_title {
+    width: 180px;
+    height: 60px;
+}
+
+.logo2_title {
+    width: 87px;
+    height: 60px;
+}
+
+.logo3_title {
+    width: 170px;
+    height: 30px;
+}
+
+.logo1_title,
+.logo2_title,
+.logo3_title {
+    display: flex;
+    flex-direction: row;
+    font-family: RobotoM, sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.logo1-img,
+.logo2-img,
+.logo3-img {
+    padding-right: 13px;
+}
+
+.logo1_subtitle,
+.logo2_subtitle,
+.logo3_subtitle {
+    width: 259px;
+    height: 96px;
+}
+
+.logo1_subtitle,
+.logo2_subtitle,
+.logo3_subtitle {
+    font-size: 16px;
+    font-family: RobotoL, sans-serif;
+    color: #FFFFFF;
+}
+
+
+main.main-contents {
+    width: 100vw;
+    height: 930.52px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 70px;
+}
+
+.contents-title {
+    height: 62px;
+    font-size: 52px;
+}
+
+.contents-subtitle {
+    width: 430px;
+    height: 60px;
+    margin-left: 275px;
+    margin-top: 30px;
+}
+
+.contents-title,
+.contents-subtitle {
+    font-family: RobotoL, sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.containers {
+    padding-top: 55px;
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+}
+
+.container1,
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 476px;
+    height: 624.52px;
+    background: #FFFFFF;
+    border: 1px solid #D3D3D3;
+    border-radius: 10px;
+    box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+}
+
+.title-container1 {
+    width: 50px;
+    height: 30px;
+    padding-top: 70px;
+}
+
+.title-container2 {
+    width: 250px;
+    height: 30px;
+    padding-top: 70px;
+}
+
+.title-container1,
+.title-container2 {
+    font-family: RobotoM, sans-serif;
+    color: #000000;
+    text-align: center;
+    font-size: 23px;
+}
+
+.subtitle-container1,
+.subtitle-container2 {
+    width: 250px;
+    height: 72px;
+}
+
+.subtitle-container1,
+.subtitle-container2 {
+    padding-top: 35px;
+    font-family: RobotoL, sans-serif;
+    text-align: center;
+    letter-spacing: 0.3px;
+    color: #5C5C5C;
+    font-size: 16px;
+}
+
+div.button-container1 {
+    width: 157px;
+    height: 52px;
+}
+
+div.button-container2 {
+    width: 190px;
+    height: 52px;
+}
+
+div.button-container1,
+div.button-container2 {
+    background: #4452FE;
+    box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+a.button-container1,
+a.button-container2 {
+    color: #FFFFFF;
+    font-size: 17px;
+    font-family: RobotoM, sans-serif;
+    text-decoration: none;
+}
+
+div.button-container1:hover,
+div.button-container2:hover {
+    background: #2637f7;
+    cursor: pointer;
+}
+
+div.computer-img {
+    background: #000000;
+    width: 330.58px;
+    height: 222.42px;
+    border: 1.52131px solid #9FA2A5;
+    border-radius: 4.56393px 4.56393px 0px 0px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img.screen_img {
+    width: 312.33px;
+    height: 195.18px;
+}
+
+.img-bottom {
+    background: url("/images/Base.png");
+    width: 405.12px;
+    height: 8.37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img.Base-Bottom {
+    width: 405.12px;
+    height: 4.72px;
+}
+
+img.Notifications {
+    width: 379px;
+    height: 276px;
+    padding-top: 20px;
+}
+
+main.main-gallery{
+    width: 100vw;
+    height: 1016px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+section.gallery{
+    height: 1000px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery-title{
+    height: 62px;
+    font-size: 52px;
+}
+
+.gallery-title,
+.gallery-subtitle{
+    font-family: RobotoL, sans-serif;
+    color: #FFFFFF;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+
+.gallery-subtitle{
+    width: 430px;
+    height: 60px;
+    padding-top: 30px;
+}
+
+.photo-gallery1{
+    padding-top: 54px;
+}
+
+.photo-gallery2{
+    padding-top: 44px;
+}
+
+.photo-gallery1,
+.photo-gallery2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 33px;
+}
+
+.photo-gallery1 img,
+img.img-gallery22{
+    width: 225px;
+    height: 285px;
+    border-radius: 10px;
+}
+
+img.img-gallery11{
+    width: 395px;
+}
+
+img.img-gallery11,
+img.img-gallery33{
+    height: 285px;
+    border-radius: 8px;
+}
+
+img.img-gallery33{
+    width: 401px;
+}
+
+div.button-gallery{
+    width: 159px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    cursor: pointer;
+    margin-top: 60px;
+}
+
+div.button-gallery:hover{
+    border-color: gray;
+}
+
+a.button-gallery{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 17px;
+    letter-spacing: 0.2px;
+    font-family: RobotoM, sans-serif;
+}
